@@ -41,3 +41,22 @@ level and age demographic.
 - Patient B: Child with injury level 3
 Outcome: Since either child isn't in critical condition, the system defaults to the Normal Queue
 and therefore the patients are treated in FIFO order.
+
+## Resources  
+Claude AI  
+Documentation:
+1st prompt:
+- Earthquake disaster
+- Patient priority is based on injury level and if they are children or elderly
+- Injury level is an integer from 1-5
+- Patient superclass; Adult, elderly, children subclasses
+- Priority queue and normal queue
+- Patients with injury level 5 will be moved to Priority queue
+- Once priority queue is empty, normal queue will continue
+
+2nd Prompt:
+- Needed to update code so that patient names are shown when queues are being viewed
+
+Notes: Overall, Claude only needed two prompts to give us what we asked for based on the criteria 
+in the first prompt. The second prompt was to refine the code so that it matched the rubric of 
+the project, which I think can be considered a human error on our part for not specifying that.
