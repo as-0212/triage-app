@@ -1,3 +1,7 @@
+CS 2013-05
+Eric Liu
+Aidan Sanchez
+
 **Overview**
 
 This Java app models triage system designed for an Earthquake Disaster Scenario. Here is the
