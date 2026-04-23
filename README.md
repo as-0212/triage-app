@@ -1,13 +1,13 @@
-CS 2013-05
-Eric Liu
-Aidan Sanchez
-
-**Overview**
+# Earthquake Disaster Triage System
+CS 2013-05  
+Eric Liu  
+Aidan Sanchez 
+## Overview
 
 This Java app models triage system designed for an Earthquake Disaster Scenario. Here is the
 documentation for the making, refining, and testing of the system.
 
-**Logic**
+## Logic
 
 The logic is as follows:
 - Patients come into the hospital and are admitted in any random order by the user
@@ -17,24 +17,24 @@ The logic is as follows:
 - All other patients, no matter the age demographic, are put into the Normal Queue, which
   treats patients in FIFO order.
 
-**Test Cases**
+## Test Cases
 
-*Priority Test*
-Description: Showcase priority system sorting who is treated first based on age demographic
+**Priority Test**  
+Description: Demonstrates priority system sorting who is treated first based on age demographic
 and injury level
 - Patient A: Adult with injury level 2
 - Patient B: Child with injury level 5
 Outcome: Patient B is treated before Patient A
 
-*Demographic Test*
-Description: Showcase priority system sorting who is treated first based on age demographic
+**Demographic Test**  
+Description: Demonstrates priority system sorting who is treated first based on age demographic
 - Patient A: Adult with injury level 5
 - Patient B: Elderly person with injury level 5
 - Patient C: Child with patient level 5
 Outcome: All patients are in priority queue in critical condition, so patients will be
 treated based on age demographic; Child > Elderly > Adult
 
-*FIFO Test*
+**FIFO Test**  
 Description: Demonstrates priority system when two patients are admitted of the same injury
 level and age demographic.
 - Patient A: Child with injury level 2
